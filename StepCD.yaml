@@ -13,8 +13,8 @@ spec:
           restartPolicy: Never
           serviceAccountName: gitops
           containers:
-            - name: gitops 
+            - name: zad2gitops 
               image: adamos321/zad2gitops
               command: [sh, -e, -c]
               args:
-                - git clone https://github.com/AdamPiechowiak/zad2-config-repo /temp/zad2-config-repo && find /temp/my
+                - git clone https://github.com/AdamPiechowiak/zad2-config-repo /tmp/zad2-config-repo && find /tmp/zad2-config-repo -name '*.yaml' -exec kubectl apply -f {} \;
