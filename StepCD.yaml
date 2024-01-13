@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: stepcd
+spec:
+  schedule: "*/2 * * * *"
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      backoffLimit: 0
+      template:
+        spec:
+          restartPolicy: Never
+          serviceAccountName: gitops
+          containers:
+            - name: gitops 
+              image: adamos321/zad2gitops
+              command: [sh, -e, -c]
+              args:
+                - git clone https://github.com/AdamPiechowiak/zad2-config-repo /temp/zad2-config-repo && find /temp/my
