@@ -31,8 +31,11 @@ uruchamiany jest cronejob o nazwie StepCD
 
 sprawdzenie czy aplikacja działa
 
-image
+![alt text](https://github.com/AdamPiechowiak/fullstack-zad2/blob/main/img/4.png)
 
 sprawdzenie czy aplikacja działa po zmianie wersji
 
-image
+![alt text](https://github.com/AdamPiechowiak/fullstack-zad2/blob/main/img/5.png)
+![alt text](https://github.com/AdamPiechowiak/fullstack-zad2/blob/main/img/6.png)
+![alt text](https://github.com/AdamPiechowiak/fullstack-zad2/blob/main/img/7.png)
+![alt text](https://github.com/AdamPiechowiak/fullstack-zad2/blob/main/img/8.png)
