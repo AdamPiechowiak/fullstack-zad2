@@ -20,12 +20,12 @@ do repozytorium source-repo został dodany plik zad2lab10.yml opisujący workflo
 
 budowany jest obraz na podstawie pliku Dockerfile znajdującego się w tym repozytorium
 
-image
+![alt text](https://github.com/AdamPiechowiak/fullstack-zad2/blob/main/img/1.png)
 
 uruchamiany jest cronejob o nazwie StepCD
 
-image
-image
+![alt text](https://github.com/AdamPiechowiak/fullstack-zad2/blob/main/img/2.png)
+![alt text](https://github.com/AdamPiechowiak/fullstack-zad2/blob/main/img/3.png)
 
 ## krok 4
 
